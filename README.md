@@ -43,3 +43,9 @@ res.json()
 
 // The parameter can be any JSON type, including object, array, string, Boolean, or number, and you can also use it to convert other values to JSON, such as null, and undefined (although these are technically not valid JSON).
 ```
+
+```js
+// access query from the url
+// myapi.com/?name=cool
+req.query.name // cool
+```
